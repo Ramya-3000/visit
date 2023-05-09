@@ -1466,6 +1466,7 @@ ColorTableAttributes::GetActiveElement(int index)
 {
     if (index >= 0 && index < active.size())
         return active[index];
+    return false;
 }
 
 // ****************************************************************************
